@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImageBook - Rajnish SE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/007b2df05a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+        <img src="images/logo.png" class="logo">
+        <ul>
+            <li><img src="images/notification.png"></li>
+            <li><img src="images/inbox.png"></li>
+            <li><img src="images/video.png"></li>
+        </ul>
+    </div>
+        <div class="nav-right">
+
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/rajnishk.jpg">
+            </div>
+
+        </div>
+
+     <!---------------settings-menu------------->
+       <div class="settings-menu">
+
+          <div id="dark-btn">
+            <span></span>
+          </div>
+
+        <div class="settings-menu-inner">
+            <div class="user-profile">
+                <img src="images/rajnishk.jpg">
+                <div>
+                    <p>Rajnish kumar</p>
+                    <a href="#">See Your Profile</a>
+                </div>
+            </div>
+            <hr>
+            <div class="user-profile">
+                <img src="images/feedback.png">
+                <div>
+                    <p>Give Feedback</p>
+                    <a href="#">Help us to improve the design</a>
+                </div>
+            </div>
+            <hr>
+            <div class="settings-links">
+                <img src="images/setting.png" class="settings-icon">
+                <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+            </div>
+            <div class="settings-links">
+                <img src="images/help.png" class="settings-icon">
+                <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+            </div>
+            <div class="settings-links">
+                <img src="images/display.png" class="settings-icon">
+                <a href="#">Display & Accessbility <img src="images/arrow.png" width="10px"></a>
+            </div>
+            <div class="settings-links">
+                <img src="images/logout.png" class="settings-icon">
+                <a href="#"> Logout <img src="images/arrow.png" width="10px"></a>
+            </div>
+        </div>
+        
+    </div>
+
+    </nav>
+
+    <div class="container">
+        <!---------------left-sidebar------------->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png"> Latest News</a>
+                <a href="#"><img src="images/friends.png"> Friends</a>
+                <a href="#"><img src="images/group.png"> Group</a>
+                <a href="#"><img src="images/marketplace.png"> Marketplace</a>
+                <a href="#"><img src="images/watch.png"> Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your shortcuts</p>
+                <a href="#"><img src="images/shortcut-1.png"> Web Developers</a>
+                <a href="#"><img src="images/shortcut-2.png"> Web Design Course</a>
+                <a href="#"><img src="images/shortcut-3.png"> Application Development</a>
+                <a href="#"><img src="images/shortcut-4.png"> Web Development Rajnish SE</a>
+            </div>
+        </div>
+        <!---------------main-content------------->
+        <div class="main-content">
+
+           <div class="story-gallery">
+            <div class="story story1">
+                <img src="images/upload.png">
+                <p>Post Story</p>
+            </div>
+            <div class="story story2">
+                <img src="images/member-2.png">
+                <p>Jacksons</p>
+            </div>
+            <div class="story story3">
+                <img src="images/member-3.png">
+                <p>Gaurabh Prayag</p>
+            </div>
+            <div class="story story4">
+                <img src="images/member-4.png">
+                <p>Alison Bano</p>
+            </div>
+            <div class="story story5">
+                <img src="images/member-5.png">
+                <p>Samona Salik</p>
+            </div>
+           </div>
+
+           <div class="write-post-container">
+            <div class="user-profile">
+                <img src="images/rajnishk.jpg">
+                <div>
+                    <p>Rajnish kumar</p>
+                    <small>Public <i class="fa-sharp fa-solid fa-caret-down"></i></small>
+                </div>
+            </div>
+
+            <div class="post-input-container">
+                <textarea rows="3" placeholder="What is on your mind, Rajnish???"></textarea>
+                 <div class="add-post-links">
+                    <a href="#"><img src="images/live-video.png"> Live Video</a>
+                    <a href="#"><img src="images/photo.png"> Photo Video</a>
+                    <a href="#"><img src="images/feeling.png"> Feeling/Activity</a>
+                 </div>
+
+
+            </div>
+
+           </div>
+
+           <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/rajnishk.jpg">
+                    <div>
+                        <p>Rajnish kumar</p>
+                        <span>September 28 2022, 11:30</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Shreya Kumari <span> @SHREYAKUMARI</span> Wish on March. So Cute Girl Angel Shreya is a Beautiful girl 4 years Old girls. <a href="#">#RajnishKumar</a> <a href="#">#YouTubeChannel</a></p>
+            <img src="images/shreya.jpg" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png"> 120</div>
+                    <div><img src="images/comments.png"> 50</div>
+                    <div><img src="images/share.png"> 20</div>
+                </div>
+                <div class="post-profile-icon">
+                <img src="images/rajnishk.jpg"> <i class="fa-sharp fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+
+           </div>
+           <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/rajnishk.jpg">
+                    <div>
+                        <p>Rajnish kumar</p>
+                        <span>September 21 2022, 01:00</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Subscribe <span> @Rajnish SE</span> YouTube Channel to watch more videos on website development and UI designs. <a href="#">#RajnishSE</a> <a href="#">#YouTubeChannel</a></p>
+            <img src="images/feed-image-2.png" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png"> 120</div>
+                    <div><img src="images/comments.png"> 50</div>
+                    <div><img src="images/share.png"> 20</div>
+                </div>
+                <div class="post-profile-icon">
+                <img src="images/rajnishk.jpg"> <i class="fa-sharp fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+
+           </div>
+           <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/rajnishk.jpg">
+                    <div>
+                        <p>Rajnish kumar</p>
+                        <span>September 15 2022, 08:30</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Subscribe <span> @Rajnish SE</span> Baba Mahendra Nath Dham is a religious place in Bihar which is very famous. . <a href="#">#BaBaMahendraNathDham</a> <a href="#">#MahendraNath</a></p>
+            <img src="images/mahendranath.jpg" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png"> 120</div>
+                    <div><img src="images/comments.png"> 50</div>
+                    <div><img src="images/share.png"> 20</div>
+                </div>
+                <div class="post-profile-icon">
+                <img src="images/rajnishk.jpg"> <i class="fa-sharp fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+
+           </div>
+           <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/member-2.png">
+                    <div>
+                        <p>Gaurabh Prayag</p>
+                        <span>September 12 2022, 08:30</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Subscribe <span> @Rajnish SE</span> YouTube Channel to watch more videos on website development Like Facebook Whatsapp Instagram and UI designs. <a href="#">#RajnishSE</a> <a href="#">#YouTubeChannel</a></p>
+            <img src="images/feed-image-4.png" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png"> 120</div>
+                    <div><img src="images/comments.png"> 50</div>
+                    <div><img src="images/share.png"> 20</div>
+                </div>
+                <div class="post-profile-icon">
+                <img src="images/rajnishk.jpg"> <i class="fa-sharp fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+
+           </div>
+           <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/rajnishk.jpg">
+                    <div>
+                        <p>Rajnish kumar</p>
+                        <span>September 06 2022, 08:30</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Buy Now <span> @Rajnish SE</span> YouTube Channel to watch more videos on website development and UI designs and Buy Now Shoes for more Store. <a href="#">#StoreBuyShoes</a> <a href="#">#CampusShoesBuyNow</a></p>
+            <img src="images/shoes.jpg" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png"> 120</div>
+                    <div><img src="images/comments.png"> 50</div>
+                    <div><img src="images/share.png"> 20</div>
+                </div>
+                <div class="post-profile-icon">
+                <img src="images/rajnishk.jpg"> <i class="fa-sharp fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+
+           </div>
+           <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/member-1.png">
+                    <div>
+                        <p>Alison Mina</p>
+                        <span>September 02 2022, 08:30</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Sponsor <span> @Meet Me Now</span> YouTube Channel to watch more videos on website development and UI designs. <a href="#">#Advertisement</a> <a href="#">#Sponsorship</a></p>
+            <img src="images/advertisement.png" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png"> 120</div>
+                    <div><img src="images/comments.png"> 50</div>
+                    <div><img src="images/share.png"> 20</div>
+                </div>
+                <div class="post-profile-icon">
+                <img src="images/rajnishk.jpg"> <i class="fa-sharp fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+
+           </div>
+           <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/rajnishk.jpg">
+                    <div>
+                        <p>Rajnish kumar</p>
+                        <span>August 29 2022, 02:30</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Buy 1 Get 2 Free <span> @Rajnish SE</span> YouTube Channel to watch more videos on website development and UI designs. <a href="#">#MILaptop</a> <a href="#">#BuyLaptopNow</a></p>
+            <img src="images/laptop.jpg" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png"> 120</div>
+                    <div><img src="images/comments.png"> 50</div>
+                    <div><img src="images/share.png"> 20</div>
+                </div>
+                <div class="post-profile-icon">
+                <img src="images/rajnishk.jpg"> <i class="fa-sharp fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+
+           </div>
+           <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/rajnishk.jpg">
+                    <div>
+                        <p>Rajnish kumar</p>
+                        <span>August 26 2022, 08:30</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Subscribe <span> @Rajnish SE</span> YouTube Channel to watch more videos on website development and UI designs. <a href="#">#RajnishSE</a> <a href="#">#YouTubeChannel</a></p>
+            <img src="images/feed-image-1.png" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png"> 120</div>
+                    <div><img src="images/comments.png"> 50</div>
+                    <div><img src="images/share.png"> 20</div>
+                </div>
+                <div class="post-profile-icon">
+                <img src="images/rajnishk.jpg"> <i class="fa-sharp fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+
+           </div>
+           <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/rajnishk.jpg">
+                    <div>
+                        <p>Rajnish kumar</p>
+                        <span>August 19 2022, 07:25</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Subscribe <span> @Rajnish SE</span> YouTube Channel to watch more videos on website development and UI designs. <a href="#">#RoyalEnfield</a> <a href="#">#BulletRaja</a></p>
+            <img src="images/bullet1.jpg" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png"> 120</div>
+                    <div><img src="images/comments.png"> 50</div>
+                    <div><img src="images/share.png"> 20</div>
+                </div>
+                <div class="post-profile-icon">
+                <img src="images/rajnishk.jpg"> <i class="fa-sharp fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+
+           </div>
+           <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/rajnishk.jpg">
+                    <div>
+                        <p>Rajnish kumar</p>
+                        <span>August 15 2022, 03:30</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Subscribe <span> @Rajnish SE</span> YouTube Channel to watch more videos on website development and UI designs. <a href="#">#RajnishSE</a> <a href="#">#YouTubeChannel</a></p>
+            <img src="images/feed-image-3.png" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png"> 120</div>
+                    <div><img src="images/comments.png"> 50</div>
+                    <div><img src="images/share.png"> 20</div>
+                </div>
+                <div class="post-profile-icon">
+                <img src="images/rajnishk.jpg"> <i class="fa-sharp fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+
+           </div>
+           <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="images/rajnishk.jpg">
+                    <div>
+                        <p>Rajnish kumar</p>
+                        <span>August 12 2022, 04:00</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-v"></i></a>
+            </div>
+            
+            <p class="post-text">Subscribe <span> @Rajnish SE</span> YouTube Channel to watch more videos on website development and UI designs. <a href="#">#RajnishSE</a> <a href="#">#YouTubeChannel</a></p>
+            <img src="images/feed-image-5.png" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="images/like-blue.png"> 120</div>
+                    <div><img src="images/comments.png"> 50</div>
+                    <div><img src="images/share.png"> 20</div>
+                </div>
+                <div class="post-profile-icon">
+                <img src="images/rajnishk.jpg"> <i class="fa-sharp fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+
+           </div>
+
+           <button type="button" class="load-more-btn">Load More</button>
+
+
+        </div>
+        <!---------------right-sidebar------------->
+        <div class="right-sidebar">
+
+           <div class="sidebar-title">
+            <h4>Events</h4>
+            <a href="#">See All</a>
+         </div>
+
+        <div class="event">
+            <div class="left-event">
+                <h3>18</h3>
+                <span>August</span>
+            </div>
+            <div class="right-event">
+                <h4>Social Media</h4>
+                <p><i class="fa-solid fa-location-dot"></i> Rajnish Kumar</p>
+                <a href="#">More Info</a>
+            </div>
+        </div>
+        <div class="event">
+            <div class="left-event">
+                <h3>24</h3>
+                <span>September</span>
+            </div>
+            <div class="right-event">
+                <h4>Happy Birthday</h4>
+                <p><i class="fa-solid fa-location-dot"></i> Gaurabh Prajapat</p>
+                <a href="#">More Info</a>
+            </div>
+        </div>
+        <div class="event">
+            <div class="left-event">
+                <h3>10</h3>
+                <span>May</span>
+            </div>
+            <div class="right-event">
+                <h4>Happy Birthday</h4>
+                <p><i class="fa-solid fa-location-dot"></i> Rajnish Kumar</p>
+                <a href="#">More Info</a>
+            </div>
+        </div>
+        <div class="event">
+            <div class="left-event">
+                <h3>09</h3>
+                <span>February</span>
+            </div>
+            <div class="right-event">
+                <h4>Happy Birthday</h4>
+                <p><i class="fa-solid fa-location-dot"></i> Rajnikh Kum.</p>
+                <a href="#">More Info</a>
+            </div>
+        </div>
+        <div class="sidebar-title">
+            <h4>Advertisement</h4>
+            <a href="#">Close</a>
+         </div>
+         <img src="images/advertisement.png" class="sidebar-ads">
+
+         <div class="sidebar-title">
+            <h4>Conversation</h4>
+            <a href="#">Hide Chat</a>
+         </div>
+
+         <div class="online-list">
+            <div class="online">
+                <img src="images/member-1.png">
+            </div>
+            <p>Alison Mina</p>
+         </div>
+         <div class="online-list">
+            <div class="online">
+                <img src="images/member-2.png">
+            </div>
+            <p>Gaurabh Prajapat</p>
+         </div>
+         <div class="online-list">
+            <div class="online">
+                <img src="images/member-3.png">
+            </div>
+            <p>Vikash kumar</p>
+         </div>
+    </div>
+        
+    </div>
+
+    <div class="footer">
+        <p>Copyright September 2022 - Rajnish kumar</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
